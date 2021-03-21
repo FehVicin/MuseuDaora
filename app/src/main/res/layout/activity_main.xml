@@ -8,10 +8,10 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/txttitulo"
         android:layout_width="144dp"
         android:layout_height="48dp"
-        android:text="Museum"
+        android:text="@string/txttitulo"
         android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,7 +24,8 @@
         android:id="@+id/txtexibicoes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Exibições"
+        android:onClick="clickexibicoes"
+        android:text="@string/txtexibicoes"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +39,8 @@
         android:id="@+id/txtgaleria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Galeria"
+        android:onClick="clickgaleria"
+        android:text="@string/txtgaleria"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="clickhorario"
-        android:text="Horários"
+        android:text="@string/txthorarios"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,10 +66,11 @@
         app:layout_constraintVertical_bias="0.284" />
 
     <TextView
-        android:id="@+id/txtlocalizacao"
+        android:id="@+id/txttitulolocal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Localização "
+        android:onClick="clicklocal"
+        android:text="@string/txtlocalizacao"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,7 +84,8 @@
         android:id="@+id/txtfale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fale conosco"
+        android:onClick="clickfale"
+        android:text="@string/txtfale"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -92,9 +96,10 @@
         app:layout_constraintVertical_bias="0.929" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imghorario"
         android:layout_width="73dp"
         android:layout_height="79dp"
+        android:contentDescription="@string/imghorario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.109"
@@ -104,9 +109,10 @@
         app:srcCompat="@drawable/calendariopng" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imgfale"
         android:layout_width="94dp"
         android:layout_height="98dp"
+        android:contentDescription="@string/imgfale"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.249"
@@ -116,9 +122,10 @@
         app:srcCompat="@drawable/falepng" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imglocal"
         android:layout_width="73dp"
         android:layout_height="69dp"
+        android:contentDescription="@string/imglocal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.109"
@@ -128,9 +135,10 @@
         app:srcCompat="@drawable/localpng" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imggaleria"
         android:layout_width="76dp"
         android:layout_height="75dp"
+        android:contentDescription="@string/imggaleria"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.11"
@@ -140,9 +148,10 @@
         app:srcCompat="@drawable/galeriapng" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/imgicone"
         android:layout_width="90dp"
         android:layout_height="99dp"
+        android:contentDescription="@string/imgicone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.809"
@@ -152,9 +161,10 @@
         app:srcCompat="@drawable/teatropng2" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/imgicone2"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:contentDescription="@string/imgicone2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.111"

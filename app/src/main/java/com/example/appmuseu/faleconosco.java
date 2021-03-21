@@ -14,5 +14,10 @@ public class faleconosco extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_faleconosco);
     }
-
+    public void btninsta (View view){
+        Uri uri = Uri.parse("https://www.instagram.com/");
+        Intent it = new
+                Intent(Intent.ACTION_VIEW,uri);
+        startActivity(it);
+    }
 }
