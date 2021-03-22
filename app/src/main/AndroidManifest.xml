@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.appmuseu">
-
+    <uses-permission
+        android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,11 +10,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".exibicoes"></activity>
-        <activity android:name=".galeria" />
-        <activity android:name=".faleconosco" />
-        <activity android:name=".local" />
-        <activity android:name=".horario" />
+        <activity android:name=".Exibicoes"></activity>
+        <activity android:name=".Galeria" />
+        <activity android:name=".Faleconosco" />
+        <activity android:name=".Local" />
+        <activity android:name=".Horario" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

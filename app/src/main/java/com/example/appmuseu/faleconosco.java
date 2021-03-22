@@ -7,7 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
-public class faleconosco extends AppCompatActivity {
+public class Faleconosco extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
