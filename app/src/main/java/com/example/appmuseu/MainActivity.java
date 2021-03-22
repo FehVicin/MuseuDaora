@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent2);
     }
 
-    public void clickgaleria (View view) {
-        Intent intent3 = new Intent(this, Galeria.class);
+    public void clickshop (View view) {
+        Intent intent3 = new Intent(this, Shop.class);
         startActivity(intent3);
     }
 

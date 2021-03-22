@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Exibicoes"></activity>
-        <activity android:name=".Galeria" />
+        <activity android:name=".Shop" />
         <activity android:name=".Faleconosco" />
         <activity android:name=".Local" />
         <activity android:name=".Horario" />

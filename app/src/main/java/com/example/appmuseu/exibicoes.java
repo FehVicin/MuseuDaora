@@ -85,10 +85,7 @@ public class Exibicoes extends AppCompatActivity {
         i--;
         if(i < 0) {
             i = 0;
-            Search();
         }
-        else{
-            Search();
-        }
+        Search();
     }
 }

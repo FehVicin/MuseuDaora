@@ -3,8 +3,8 @@
 
     <string name="txtfale">Fale Conosco</string>
     <string name="txtlocalizacao">Localização</string>
-    <string name="txthorarios">Horários</string>
-    <string name="txtgaleria">Galeria</string>
+    <string name="txthorarios">Horário</string>
+    <string name="txtgaleria">Shop</string>
     <string name="txtexibicoes">Exibições</string>
     <string name="txttitulo">Museum</string>
 
@@ -39,7 +39,7 @@
     <string name="txtendereco">R. Sumaré - Santo Antônio Osasco - SP, 02675-031</string>
     <string name="imgmapa"/>
 
-    <string name="txttitulohorario">Horários</string>
+    <string name="txttitulohorario">Horário</string>
     <string name="txtexplicacao">Em razão da decisão do Governo do Estado de São Paulo para enfrentamento da pandemia de Covid19, nosso museu estará fechado para visitação a partir do próximo sábado, dia 6 de março, até a terça-feira dia 30 de março, data em que está prevista a nova classificação do plano de restrições determinado em âmbito estadual.</string>
 
     <string name="txttitulogaleria">Galeria</string>

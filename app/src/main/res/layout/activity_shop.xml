@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Galeria">
+    tools:context=".Shop">
 
     <ImageView
         android:id="@+id/imgicone7"
@@ -13,8 +13,8 @@
         android:contentDescription="@string/imgicone7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.694"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txttitulogaleria"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.025"
         app:srcCompat="@drawable/teatropng2" />
@@ -31,57 +31,64 @@
         app:layout_constraintHorizontal_bias="0.413"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.051" />
+        app:layout_constraintVertical_bias="0.061" />
 
     <ImageView
-        android:id="@+id/imggal1"
-        android:layout_width="205dp"
-        android:layout_height="209dp"
-        android:contentDescription="@string/imggal1"
+        android:id="@+id/imgPro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.584"
-        app:srcCompat="@drawable/foto1" />
+        app:layout_constraintVertical_bias="0.356"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="@string/carregando"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPro" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="@string/carregando"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtName" />
 
     <ImageView
-        android:id="@+id/imggal2"
-        android:layout_width="320dp"
-        android:layout_height="321dp"
-        android:contentDescription="@string/imggal2"
+        android:id="@+id/imgNItem"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:onClick="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.809"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136"
-        app:srcCompat="@drawable/foto3" />
+        app:layout_constraintVertical_bias="0.936"
+        app:srcCompat="@drawable/next" />
 
     <ImageView
-        android:id="@+id/imggal3"
-        android:layout_width="355dp"
-        android:layout_height="244dp"
-        android:contentDescription="@string/imggal3"
+        android:id="@+id/imgPItem"
+        android:layout_width="53dp"
+        android:layout_height="54dp"
+        android:onClick="Previous"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.201"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/foto4" />
-
-    <ImageView
-        android:id="@+id/imggal4"
-        android:layout_width="192dp"
-        android:layout_height="176dp"
-        android:contentDescription="@string/imggal4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572"
-        app:srcCompat="@drawable/foto5" />
+        app:layout_constraintVertical_bias="0.936"
+        app:srcCompat="@drawable/previous" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
