@@ -34,34 +34,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.261" />
 
-    <TextView
-        android:id="@+id/txtTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/carregando"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.286" />
-
-    <TextView
-        android:id="@+id/txtActive"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/carregando"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
-        app:layout_constraintVertical_bias="0.443" />
-
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="72dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,30 +56,54 @@
 
     </ScrollView>
 
-    <ImageView
-        android:id="@+id/imgNext"
-        android:layout_width="49dp"
-        android:layout_height="48dp"
-        android:onClick="Next"
+    <TextView
+        android:id="@+id/txtActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/carregando"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.845"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.503" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/carregando"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.935"
-        app:srcCompat="@drawable/next" />
+        app:layout_constraintVertical_bias="0.373" />
+
+    <EditText
+        android:id="@+id/txtSearchExhi"
+        android:layout_width="185dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/search"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248" />
 
     <ImageView
-        android:id="@+id/imgPrevious"
-        android:layout_width="49dp"
-        android:layout_height="48dp"
-        android:onClick="Previous"
+        android:id="@+id/imgSearchExhi"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:onClick="Search"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toEndOf="@+id/txtSearchExhi"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.935"
-        app:srcCompat="@drawable/previous" />
+        app:layout_constraintVertical_bias="0.246"
+        app:srcCompat="@drawable/loupe" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
