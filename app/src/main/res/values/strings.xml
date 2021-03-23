@@ -2,7 +2,6 @@
     <string name="app_name">AppMuseu</string>
 
     <string name="txtfale">Fale Conosco</string>
-    <string name="txtlocalizacao">Localização</string>
     <string name="txthorarios">Horário</string>
     <string name="txtgaleria">Shop</string>
     <string name="txtexibicoes">Exibições</string>
@@ -10,7 +9,6 @@
 
     <string name="imghorario"/>
     <string name="imgfale"/>
-    <string name="imglocal"/>
     <string name="imgicone"/>
     <string name="imgicone2"/>
     <string name="imgicone3"/>
@@ -35,18 +33,7 @@
     <string name="imgex3"/>
     <string name="imgex4"/>
 
-    <string name="txttitulolocal">Localização</string>
-    <string name="txtendereco">R. Sumaré - Santo Antônio Osasco - SP, 02675-031</string>
-    <string name="imgmapa"/>
-
     <string name="txttitulohorario">Horário</string>
-    <string name="txtexplicacao">Em razão da decisão do Governo do Estado de São Paulo para enfrentamento da pandemia de Covid19, nosso museu estará fechado para visitação a partir do próximo sábado, dia 6 de março, até a terça-feira dia 30 de março, data em que está prevista a nova classificação do plano de restrições determinado em âmbito estadual.</string>
-
-    <string name="txttitulogaleria">Galeria</string>
-    <string name="imggal1"/>
-    <string name="imggal2"/>
-    <string name="imggal3"/>
-    <string name="imggal4"/>
 
     <string name="carregando">Carregando…</string>
     <string name="search">Busca</string>
