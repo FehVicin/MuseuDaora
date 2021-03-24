@@ -19,11 +19,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent1);
     }
 
-    public void clicklocal (View view) {
-        Intent intent2 = new Intent(this, Local.class);
-        startActivity(intent2);
-    }
-
     public void clickshop (View view) {
         Intent intent3 = new Intent(this, Shop.class);
         startActivity(intent3);

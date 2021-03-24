@@ -48,9 +48,9 @@
 
     <TextView
         android:id="@+id/txttitulogaleria"
-        android:layout_width="109dp"
-        android:layout_height="45dp"
-        android:text="@string/txttitulogaleria"
+        android:layout_width="78dp"
+        android:layout_height="41dp"
+        android:text="@string/txtgaleria"
         android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"

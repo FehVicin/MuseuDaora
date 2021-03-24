@@ -15,7 +15,6 @@
         <activity android:name=".Exibicoes"></activity>
         <activity android:name=".Shop" />
         <activity android:name=".Faleconosco" />
-        <activity android:name=".Local" />
         <activity android:name=".Horario" />
         <activity android:name=".MainActivity">
             <intent-filter>
