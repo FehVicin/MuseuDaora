@@ -27,7 +27,7 @@ public class Exibicoes extends AppCompatActivity implements LoaderManager.Loader
     TextView info;
     ImageView search;
     EditText txt_search;
-    Integer i = 0;
+    String id = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +45,7 @@ public class Exibicoes extends AppCompatActivity implements LoaderManager.Loader
 
     public void Search(View view) {
         String queryString = txt_search.getText().toString();
+        id = queryString;
 
         InputMethodManager inputMethodManager = (InputMethodManager)
                 getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -76,6 +77,10 @@ public class Exibicoes extends AppCompatActivity implements LoaderManager.Loader
         }
     }
 
+    public void save(){
+        FeedReaderContract.FeedReaderDbHelper dbHelper = new FeedReaderContract.FeedReaderDbHelper(Exibicoes.this);
+    }
+
     @NonNull
     @Override
     public Loader<String> onCreateLoader(int id, @Nullable Bundle args) {
@@ -104,6 +109,7 @@ public class Exibicoes extends AppCompatActivity implements LoaderManager.Loader
                 else{
                     active.setText("Fechado");
                 }
+                save();
             }
             else{
                 Toast.makeText(getApplicationContext(), "Este id não é válido", Toast.LENGTH_SHORT).show();
