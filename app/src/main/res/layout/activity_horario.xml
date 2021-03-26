@@ -28,13 +28,13 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintHorizontal_bias="0.289"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.094" />
 
     <TextView
-        android:id="@+id/txtClose"
+        android:id="@+id/txtTitle3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="172dp"
@@ -44,33 +44,33 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/txtDay"
+        android:id="@+id/txtTitle1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="80dp"
         android:text="@string/carregando"
-        app:layout_constraintBottom_toTopOf="@+id/txtTime"
+        app:layout_constraintBottom_toTopOf="@+id/txtTitle2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/txtTime"
+        android:id="@+id/txtTitle2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="80dp"
         android:text="@string/carregando"
-        app:layout_constraintBottom_toTopOf="@+id/txtClose"
+        app:layout_constraintBottom_toTopOf="@+id/txtTitle3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/txtOpen"
+        android:id="@+id/txtTitle0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/carregando"
-        app:layout_constraintBottom_toTopOf="@+id/txtDay"
+        app:layout_constraintBottom_toTopOf="@+id/txtTitle1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"

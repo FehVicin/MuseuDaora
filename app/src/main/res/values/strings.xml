@@ -2,7 +2,7 @@
     <string name="app_name">AppMuseu</string>
 
     <string name="txtfale">Fale Conosco</string>
-    <string name="txthorarios">Horário</string>
+    <string name="txthorarios">Vistos por último</string>
     <string name="txtgaleria">Shop</string>
     <string name="txtexibicoes">Exibições</string>
     <string name="txttitulo">Museum</string>
@@ -33,7 +33,7 @@
     <string name="imgex3"/>
     <string name="imgex4"/>
 
-    <string name="txttitulohorario">Horário</string>
+    <string name="txttitulohorario">Vistos por último</string>
 
     <string name="carregando">Carregando…</string>
     <string name="search">Busca</string>

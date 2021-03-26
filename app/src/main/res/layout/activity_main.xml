@@ -32,94 +32,10 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintHorizontal_bias="0.569"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.929" />
-
-    <ImageView
-        android:id="@+id/imghorario"
-        android:layout_width="73dp"
-        android:layout_height="79dp"
-        android:contentDescription="@string/imghorario"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26"
-        app:srcCompat="@drawable/calendariopng" />
-
-    <TextView
-        android:id="@+id/txtexibicoes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="clickexibicoes"
-        android:text="@string/txtexibicoes"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
-        app:layout_constraintStart_toEndOf="@+id/imgicone2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.622" />
-
-    <ImageView
-        android:id="@+id/imgicone2"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:contentDescription="@string/imgicone2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.637"
-        app:srcCompat="@drawable/teatropng2" />
-
-    <TextView
-        android:id="@+id/txtgaleria"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="clickshop"
-        android:text="@string/txtgaleria"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
-        app:layout_constraintStart_toEndOf="@+id/imggaleria"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446" />
-
-    <TextView
-        android:id="@+id/txthorarios"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="clickhorario"
-        android:text="@string/txthorarios"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
-        app:layout_constraintStart_toEndOf="@+id/imghorario"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281" />
-
-    <ImageView
-        android:id="@+id/imggaleria"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:contentDescription="@string/imggaleria"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.11"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443"
-        app:srcCompat="@drawable/galeriapng" />
+        app:layout_constraintVertical_bias="0.932" />
 
     <ImageView
         android:id="@+id/imgfale"
@@ -146,5 +62,90 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.05"
         app:srcCompat="@drawable/teatropng2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="61dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295"
+        app:srcCompat="@drawable/clock" />
+
+    <TextView
+        android:id="@+id/txtgaleria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickshop"
+        android:text="@string/txtgaleria"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toEndOf="@+id/imggaleria"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466" />
+
+    <TextView
+        android:id="@+id/txthorarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:onClick="clickhorario"
+        android:text="@string/txthorarios"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.312" />
+
+    <ImageView
+        android:id="@+id/imgicone2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/imgicone2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66"
+        app:srcCompat="@drawable/teatropng2" />
+
+    <ImageView
+        android:id="@+id/imggaleria"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
+        android:contentDescription="@string/imggaleria"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466"
+        app:srcCompat="@drawable/galeriapng" />
+
+    <TextView
+        android:id="@+id/txtexibicoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickexibicoes"
+        android:text="@string/txtexibicoes"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toEndOf="@+id/imgicone2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

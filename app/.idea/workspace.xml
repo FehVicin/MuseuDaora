@@ -5,6 +5,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="920fca7c-9ee5-4bea-ae60-2ee01a4aa95d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +49,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BG\PAM\MuseuDaora\app\src\main\res\drawable-v24" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -151,5 +159,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616584489648" />
+    <state width="1876" height="239" key="GridCell.Tab.0.bottom" timestamp="1616729559259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616729559259" />
+    <state width="1876" height="239" key="GridCell.Tab.0.center" timestamp="1616729559259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616729559259" />
+    <state width="1876" height="239" key="GridCell.Tab.0.left" timestamp="1616729559259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616729559259" />
+    <state width="1876" height="239" key="GridCell.Tab.0.right" timestamp="1616729559259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616729559259" />
   </component>
 </project>
