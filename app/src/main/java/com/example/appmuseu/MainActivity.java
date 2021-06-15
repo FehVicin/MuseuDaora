@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView txttitulo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,31 +19,36 @@ public class MainActivity extends AppCompatActivity {
         txttitulo = findViewById(R.id.txttitulo);
     }
 
-    public void clickhorario (View view) {
+    public void clickhorario(View view) {
         Intent intent1 = new Intent(this, Horario.class);
         startActivity(intent1);
     }
 
-    public void clickshop (View view) {
+    public void clickshop(View view) {
         Intent intent3 = new Intent(this, Shop.class);
         startActivity(intent3);
     }
 
-    public void clickfale (View view) {
+    public void clickfale(View view) {
         Intent intent4 = new Intent(this, Faleconosco.class);
         startActivity(intent4);
     }
 
-    public void clickexibicoes (View view) {
+    public void clickexibicoes(View view) {
         Intent intent5 = new Intent(this, Exibicoes.class);
         startActivity(intent5);
+    }
+
+    public void clickcafe(View view) {
+        Intent intent6 = new Intent(this, Cafe.class);
+        startActivity(intent6);
     }
 
     @Override
     public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
         super.onSaveInstanceState(outState, outPersistentState);
 
-        outState.putInt("COR",txttitulo.getCurrentTextColor());
+        outState.putInt("COR", txttitulo.getCurrentTextColor());
     }
 
     @Override
@@ -54,13 +60,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void mudarcor (View view){
-        TextView txt = (TextView)view;
-        if(txt.getCurrentTextColor()!= Color.RED)
-        {
+    public void mudarcor(View view) {
+        TextView txt = (TextView) view;
+        if (txt.getCurrentTextColor() != Color.RED) {
             txt.setTextColor(Color.RED);
-        }
-        else
-        {
+        } else {
             txt.setTextColor(Color.BLACK);
         }
+    }
+}

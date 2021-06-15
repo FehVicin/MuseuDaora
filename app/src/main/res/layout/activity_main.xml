@@ -12,6 +12,7 @@
         android:id="@+id/txttitulo"
         android:layout_width="144dp"
         android:layout_height="48dp"
+        android:contentDescription="@string/txttitulo"
         android:onClick="mudarcor"
         android:text="@string/txttitulo"
         android:textColor="@android:color/black"
@@ -27,16 +28,16 @@
         android:id="@+id/txtfale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/txtfale"
         android:onClick="clickfale"
         android:text="@string/txtfale"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.569"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932" />
+        app:layout_constraintVertical_bias="0.93" />
 
     <ImageView
         android:id="@+id/imgfale"
@@ -45,7 +46,7 @@
         android:contentDescription="@string/imgfale"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintHorizontal_bias="0.176"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.974"
@@ -70,6 +71,7 @@
         android:layout_height="62dp"
         android:layout_marginStart="48dp"
         android:layout_marginLeft="48dp"
+        android:contentDescription="@string/txthorarios"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -80,6 +82,7 @@
         android:id="@+id/txtgaleria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/txtgaleria"
         android:onClick="clickshop"
         android:text="@string/txtgaleria"
         android:textColor="@android:color/black"
@@ -97,6 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="52dp"
         android:layout_marginRight="52dp"
+        android:contentDescription="@string/txthorarios"
         android:onClick="clickhorario"
         android:text="@string/txthorarios"
         android:textColor="@android:color/black"
@@ -138,6 +142,7 @@
         android:id="@+id/txtexibicoes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/txtexibicoes"
         android:onClick="clickexibicoes"
         android:text="@string/txtexibicoes"
         android:textColor="@android:color/black"
@@ -148,5 +153,18 @@
         app:layout_constraintStart_toEndOf="@+id/imgicone2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.643" />
+
+    <ImageView
+        android:id="@+id/cafe"
+        android:layout_width="62dp"
+        android:layout_height="63dp"
+        android:onClick="clickcafe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@drawable/coffee" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

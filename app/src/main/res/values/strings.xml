@@ -7,18 +7,18 @@
     <string name="txtexibicoes">Exibições</string>
     <string name="txttitulo">Museum</string>
 
-    <string name="imghorario"/>
-    <string name="imgfale"/>
-    <string name="imgicone"/>
-    <string name="imgicone2"/>
-    <string name="imgicone3"/>
-    <string name="imgicone4"/>
-    <string name="imgicone5"/>
-    <string name="imgicone6"/>
-    <string name="imgicone7"/>
-    <string name="imggaleria"/>
+    <string name="imghorario" />
+    <string name="imgfale" />
+    <string name="imgicone" />
+    <string name="imgicone2" />
+    <string name="imgicone3" />
+    <string name="imgicone4" />
+    <string name="imgicone5" />
+    <string name="imgicone6" />
+    <string name="imgicone7" />
+    <string name="imggaleria" />
 
-    <string name="btninsta"/>
+    <string name="btninsta" />
 
     <string name="txtfale2">Fale Conosco</string>
     <string name="txtemail">Email:</string>
@@ -28,33 +28,15 @@
     <string name="txttelefone2">(11) 3903-2241</string>
 
     <string name="txttituloexibi">Exibições</string>
-    <string name="imgex1"/>
-    <string name="imgex2"/>
-    <string name="imgex3"/>
-    <string name="imgex4"/>
+    <string name="imgex1" />
+    <string name="imgex2" />
+    <string name="imgex3" />
+    <string name="imgex4" />
 
     <string name="txttitulohorario">Vistos por último</string>
 
     <string name="carregando">Carregando…</string>
     <string name="search">Busca</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </resources>
