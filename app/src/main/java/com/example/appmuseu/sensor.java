@@ -28,10 +28,8 @@ public class sensor extends AppCompatActivity {
 
             flashlight = (ImageView) findViewById(R.id.imgflashlight);
 
-            // lanterninha
             temLanterna = getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
 
-            // sensor
             sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
             luzes = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
 
@@ -40,7 +38,6 @@ public class sensor extends AppCompatActivity {
             String Login =intent.getStringExtra(LoginActivity.EXTRA_MESSAGE_LOGIN);
             nomelogin.setText(Login);
 
-            // imagem usuario
             fotoperfilusuario = (ImageView) findViewById(R.id.imguserprincipal);
             SQLiteDatabase db = this.openOrCreateDatabase(BancoSQLite.NOME_BANCO, MODE_PRIVATE, null);
             Cursor cursor = db.rawQuery("select * from Usuario where Apelido = ?", new String[]{Login});
@@ -61,7 +58,7 @@ public class sensor extends AppCompatActivity {
             }
 
         }
-        //sensor que muda a lanterna
+
         @Override
         public void onSensorChanged(SensorEvent event) {
             float resultados = event.values[0];
@@ -94,13 +91,13 @@ public class sensor extends AppCompatActivity {
         public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
         }
-        // onclick do bot達o que flutua, com action_pick
+
         public void Chamar (View view)
         {
             Intent chameIntent = new Intent(Intent.ACTION_PICK, ContactsContract.CommonDataKinds.Phone.CONTENT_URI);
             startActivityForResult(Intent.createChooser(chameIntent,"Selecione um contato"), EXTRA_COD);
         }
-        //onclick de cada bot達o.
+
         public void rodaGigantar (View view)
         {
             Intent rodaGigantar = new Intent(this, RodaGiganteActivity.class);
@@ -121,7 +118,7 @@ public class sensor extends AppCompatActivity {
             Intent intent = new Intent(this,PatosselActivity.class);
             startActivity(intent);
         }
-        // resultado do requerimento do bot達o que flutua, abrindo a tela de discagem com o numero do contato escolhido.
+
         @Override
         protected void onActivityResult (int RequestCode, int ResultCode, Intent data)
         {
@@ -162,13 +159,13 @@ public class sensor extends AppCompatActivity {
                     Lanterninha();
                 }
                 else {
-                    Toast.makeText(this, "Permiss達o negada", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Permissao negada", Toast.LENGTH_SHORT).show();
                 }
 
             }
         }
 
-        //sensor
+
         @Override
         public void onResume() {
             super.onResume();
