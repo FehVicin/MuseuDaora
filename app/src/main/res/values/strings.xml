@@ -38,5 +38,7 @@
     <string name="carregando">Carregando…</string>
     <string name="search">Busca</string>
 
+    <string name="cafe" />
+
 
 </resources>
