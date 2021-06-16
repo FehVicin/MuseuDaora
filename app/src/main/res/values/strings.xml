@@ -27,7 +27,7 @@
     <string name="txtemail2">museubrasil@contato.com</string>
     <string name="txttelefone2">(11) 3903-2241</string>
     <string name="sensor">Mude a luminosidade do celular!</string>
-
+    <string name="button">Sensor</string>
     <string name="txttituloexibi">Exibições</string>
     <string name="imgex1" />
     <string name="imgex2" />
@@ -37,7 +37,7 @@
     <string name="txttitulohorario">Vistos por último</string>
 
     <string name="carregando">Carregando…</string>
-    <string name="search">Busca</string>
+    <string name="search">Digite um Id</string>
 
     <string name="cafe" />
 

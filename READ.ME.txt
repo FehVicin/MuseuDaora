@@ -1,0 +1,19 @@
+Projeto API
+O projeto consiste em um aplicativo mobile feito com base na API Collection Cooperhewitt. A dupla fez um aplicativo onde o usuário pode acessar as exibições e itens na loja que a API fornecia.
+
+Link para a API:
+https://collection.cooperhewitt.org/api/
+
+Dupla:
+Caroline Oliveira dos Santos
+Felipe Jangelavicin
+
+IDs Exibições:
+- 2318804914
+- 2318804913
+- 2318802364
+
+IDs Itens da Loja:
+- 84995483
+- 84995485
+- 84995489
