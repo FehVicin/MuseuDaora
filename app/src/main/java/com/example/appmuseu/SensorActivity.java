@@ -42,7 +42,7 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
     @Override
     public void onSensorChanged(SensorEvent event) {
         float light = event.values[0];
-        sensorluz.setText(String.valueOf(light));
+        sensorluz.setText(String.valueOf("A luminosidade do ambiente é " + light));
     }
 
     @Override
