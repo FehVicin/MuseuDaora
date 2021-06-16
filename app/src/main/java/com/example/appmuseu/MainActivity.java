@@ -44,6 +44,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent6);
     }
 
+    public void button(View view){
+        Intent intent7 = new Intent(this, SensorActivity.class);
+        startActivity(intent7);
+    }
+
     @Override
     public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
         super.onSaveInstanceState(outState, outPersistentState);
